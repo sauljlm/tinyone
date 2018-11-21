@@ -1,0 +1,103 @@
+.section2{
+    h2{
+        padding-top: 120px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+.header{
+    padding-top: 45px;
+}
+.boxSection2{
+    width: 300px;
+    float: left;
+    min-height: 180px;
+    padding: 6px;
+    .content{
+        max-width: 220px;
+        .light{
+            color: #898989;
+            padding-top: 15px;
+            max-width: 390px;
+            text-align: left;
+        }
+    }
+}
+.content-wrapper{
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 160px;
+}
+.block1{
+    max-width: 780px;
+    margin: 0 auto;
+}
+.box1:before{
+    background-image: url(../img/logo1.png);
+    content: '';
+    width: 35px;
+    height: 40px;
+    display: inline-block;
+    position:relative;
+    left: -55px;
+    top:45px;
+    background-repeat: no-repeat;
+}
+.box2:before{
+    background-image: url(../img/logo2.png);
+    content: '';
+    width: 43px;
+    height: 44px;
+    display: inline-block;
+    position:relative;
+    left: -55px;
+    top:45px;
+    background-repeat: no-repeat;
+}
+.box3:before{
+    background-image: url(../img/logo3.png);
+    content: '';
+    width: 47px;
+    height: 40px;
+    display: inline-block;
+    position:relative;
+    left: -55px;
+    top:45px;
+    background-repeat: no-repeat;
+}
+.box4:before{
+    background-image: url(../img/logo4.png);
+    content: '';
+    width: 53px;
+    height: 40px;
+    display: inline-block;
+    position:relative;
+    left: -55px;
+    top:45px;
+    background-repeat: no-repeat;
+}
+.box5:before{
+    background-image: url(../img/logo5.png);
+    content: '';
+    width: 51px;
+    height: 40px;
+    display: inline-block;
+    position:relative;
+    left: -55px;
+    top:45px;
+    background-repeat: no-repeat;
+}
+.box6:before{
+    background-image: url(../img/logo6.png);
+    content: '';
+    width: 36px;
+    height: 46px;
+    display: inline-block;
+    position:relative;
+    left: -55px;
+    top:45px;
+    background-repeat: no-repeat;
+}

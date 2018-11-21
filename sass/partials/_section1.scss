@@ -1,0 +1,98 @@
+.section1{
+    background-color: $bacgroundColor1;
+}
+.header{
+    padding-bottom: 70px;
+    span{
+        font-weight: bold;
+        position: relative;
+        top: -18px;
+        font-size: 20px;
+    }
+}
+.content-menu{
+    float: right;
+}
+#hamburguer{
+    width: 10%;
+    display: none;
+}
+.menu{
+    li{
+        padding-left: 70px;
+        font-weight: bold;
+        float: left;
+        font-size: 20px;
+        a{
+            color: $black;
+        }
+    }
+}
+.content-slider{
+    width: 43%;
+    float: left;
+}
+.content-img{
+    width: 57%;
+    float: left;
+}
+.slider{
+    h2{
+        font-size: 32px;
+        padding: 70px 0 20px 0; 
+    }
+    .bold{
+        font-size: 20px;
+        color: #313841;
+    }
+    .light{
+        color: $colorLight;
+        padding: 27px 0 42px 0;
+    }
+}
+.sprite{
+    text-align: center;
+    .uno, .dos, .tres{
+        background-image: url("../img/resesSlider.png");
+        background-repeat: no-repeat;
+        width: 33px;
+        height: 39px;
+        float: left;
+        padding-right: 38px;
+        padding-bottom: 166px;
+    }
+    .uno{
+        background-position: 0 0;
+    }
+    .dos{
+        background-position: -71px 0;
+    }
+    .tres{
+        background-position: -142px 0;
+    }
+}
+
+.tablet{
+    float: right;
+}
+.center-btnSlider{
+    text-align: center;
+}
+.btnSlider{
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 49px;
+    padding-top: 43px;
+    text-align: center;
+    .BTN{
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: $white;
+        opacity: 0.5;
+    }
+    .BTN:hover{
+        opacity: 1;
+    }
+}

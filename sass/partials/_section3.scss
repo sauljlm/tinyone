@@ -1,0 +1,70 @@
+.section3{
+    background-color: $bacgroundColor3;
+    h2{
+        padding-top: 95px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: $yellow;
+    }
+    p{
+        text-align: center;
+        color: $white;
+    }
+    form{
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 45px 0 75px 0;
+    }
+}
+#email{
+    padding: 20px 375px 20px 25px;
+    border: none;
+    border-radius: 5px;
+    color: $colorLight;
+}
+#submit{
+    padding: 20px 35px;
+    background-color: $yellow;
+    border: none;
+    border-radius: 5px;
+    margin-left: 21px;
+}
+.center-sprite{
+    text-align: center;
+}
+.spriteFooter{
+    .uno, .dos, .tres, .cuatro{
+        background-image: url("../img/redesSociales.png");
+        background-repeat: no-repeat;
+        width: 36px;
+        height: 36px;
+        float: left;
+        padding-right: 34px;
+    }
+    .uno{
+        background-position: 0 0;
+    }
+    .dos{
+        background-position: -70px 0;
+    }
+    .tres{
+        background-position: -140px 0;
+    }
+    .cuatro{
+        background-position: -210px 0;
+    }
+}
+.footer{
+    color: $colorFooter;
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-bottom: 135px;
+    .boxFooter{
+        float: left;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .boxFooterfirst{
+        padding-left: 10px;
+    }
+}
