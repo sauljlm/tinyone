@@ -14,7 +14,9 @@
     float: right;
 }
 #hamburguer{
-    width: 10%;
+    position: absolute;
+    left: 2%;
+    top: 6%;
     display: none;
 }
 .menu{
@@ -27,6 +29,33 @@
             color: $black;
         }
     }
+}
+#sliders{
+    padding-bottom: 500px;
+}
+.slide{
+    position: absolute;
+    right: 0;
+    width: 960px;
+    .block{
+        float: left;
+    }
+    &:first-child{
+        left: 0;
+    }
+    &:nth-child(2){
+        left: 100vw;
+    }
+    &:last-child{
+        left: 200vw;
+    }
+}
+.redesResponsive{
+    float: right;
+    display: none;
+    position: absolute;
+    right: 2%;
+    top: 6%;
 }
 .content-slider{
     width: 43%;
