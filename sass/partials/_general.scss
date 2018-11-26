@@ -4,6 +4,7 @@
 }
 body{
   font-family: sans-serif;
+  margin: 0;
 }
 a{
   text-decoration: none;
@@ -12,7 +13,7 @@ li{
   list-style: none;
 }
 .content{
-  max-width: 941px;
+  max-width: 100%;
   margin: 0 auto;
   padding-left: 2%;
   padding-right: 2%;

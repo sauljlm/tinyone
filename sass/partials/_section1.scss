@@ -1,5 +1,8 @@
 .section1{
     background-color: $bacgroundColor1;
+    .content{
+        margin-right: 0;
+    }
 }
 .header{
     padding-bottom: 70px;
@@ -35,8 +38,6 @@
 }
 .slide{
     position: absolute;
-    right: 0;
-    width: 960px;
     .block{
         float: left;
     }
