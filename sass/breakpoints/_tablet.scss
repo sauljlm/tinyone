@@ -51,6 +51,12 @@
     .redesResponsive{
         display: block;
     }
+    .boxSection2{
+        float: none;
+        width: 250px;
+        min-height: 0;
+        padding-top: 80px;
+    }
     .section2{
         h2{
             padding-top: 110px;
@@ -62,26 +68,18 @@
             color: $colorLight;
         }
     }
-    .boxSection2{
-        width: 300px;
-        min-height: 100px;
-        padding: 6px;
-        float: none;
-        .content{
-            max-width: 220px;
-            .light{
-                color: #898989;
-                padding-top: 15px;
-                max-width: 390px;
-                text-align: left;
-            }
-        }
-    }
-    .contentBox2, .contentBox5{
+    #normal{
         display: none;
     }
-    .contentBox3, .contentBox6{
-        float: right;
+    #responsive{
+        display: block !important;
+    }
+    .imgTabletResponsive{
+        float: left;
+        width: 35%;
+    }
+    .left{
+        float: left;
     }
     .box1:before{
         display: none;
@@ -100,16 +98,6 @@
     }
     .box6:before{
         display:none;
-    }
-
-    .content-wrapper{
-        margin: 0 auto;
-        padding-top: 90px;
-        padding-bottom: 160px;
-    }
-    .block1{
-        max-width: 780px;
-        margin: 0 auto;
     }
     // secction 3.
     form{
