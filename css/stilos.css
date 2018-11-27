@@ -105,9 +105,6 @@ li {
   color: #555555;
   padding: 27px 0 42px 0; }
 
-.sprite {
-  text-align: center; }
-
 .tablet {
   float: right; }
 
@@ -401,7 +398,10 @@ li {
     padding-bottom: 15%; } }
 @media (max-width: 768px) {
   .imgTabletResponsive {
-    padding: 0; } }
+    padding: 0; }
+
+  .boxSection2 {
+    padding-top: 30px; } }
 @media (max-width: 620px) {
   .content-wrapper {
     padding: 0 0 50px 0; }
