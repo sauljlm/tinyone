@@ -1,114 +1,19 @@
 @media (max-width: $breakpoint-md){
-    .none{
-        display: none;
-    }
-    .section1{
-        .containerLogo{
-            text-align: center;
-        }
-        #hamburguer{
-            display: block;
-        }
-        .menu{
-            display: none;
-        }
-        .content-slider{
-            text-align: center;
-            float: none;
-        }
-        .content-img{
-            display: none;
-        }
-        .containerLogo{
-            img{
-                width: 5%;
-            }
-            span{
-                font-size: 1.2rem;
-                position: relative;
-                top: -13px;
-            }
-        }
-        .uno, .dos, .tres{
-            background-image: url("../img/redesSlider2.png");
-            background-repeat: no-repeat;
-            width: 70px;
-            height: 70px;
-            float: left;
-            padding-right: 38px;
-            padding-bottom: 150px;
-        }
-        .uno{
-            background-position: 0 0;
-        }
-        .dos{
-            background-position: -108px 0;
-        }
-        .tres{
-            background-position: -216px 0;
-        }
-    }
-    .redesResponsive{
-        display: block;
-    }
-    .boxSection2{
-        float: none;
-        width: 250px;
-        min-height: 0;
-        padding-top: 80px;
-    }
-    .section2{
-        h2{
-            padding-top: 110px;
-            padding-bottom: 5px;
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            color: $colorLight;
-        }
-    }
-    #normal{
-        display: none;
-    }
-    #responsive{
-        display: block !important;
-    }
     .imgTabletResponsive{
-        float: left;
-        width: 35%;
+        padding: 0;
+    }
+}
+@media (max-width: 620px){
+    .content-wrapper{
+        padding: 0 0 50px 0;
     }
     .left{
-        float: left;
+        margin-left: 9%;
     }
-    .box1:before{
+    .imgTabletResponsive{
         display: none;
     }
-    .box2:before{
-        display:none;
-    }
-    .box3:before{
-        display:none;
-    }
-    .box4:before{
-        display:none;
-    }
-    .box5:before{
-        display:none;
-    }
-    .box6:before{
-        display:none;
-    }
-    // secction 3.
-    form{
-        padding: 4.5% 0 10% 0 !important;
-    }
-    .spriteFooter{
-        display: none;
-    }
-    .footer{
-        font-size: 0.6rem;
-        padding-top: 0%;
-        padding-bottom: 15%;
+    .boxSection2{
+        margin: 10%;
     }
 }

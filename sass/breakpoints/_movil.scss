@@ -1,0 +1,52 @@
+@media (max-width: $breakpoint-sm){
+    .redesResponsive{
+        display: none;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    span{
+        font-size: 1.5rem;
+    }
+    .bold{
+        font-size: 1.5rem !important;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .imgTabletResponsive{
+        display: none;
+    }
+    .content-slider {
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+    .boxSection2{
+        width: 100%;
+        margin: 0;
+        .content{
+            max-width: 100%;
+            text-align: center;
+        }
+        .light{
+            font-size: 1.5rem;
+            text-align: center !important;
+        }
+    }
+    .left{
+        margin-left: 0;
+    }
+    .email{
+        margin: 10% 0 15% 0;
+    }
+    #submit{
+        margin-bottom: 10%;
+    }
+    .footer{
+        display: none;
+    }
+}

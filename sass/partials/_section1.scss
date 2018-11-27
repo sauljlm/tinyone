@@ -22,7 +22,7 @@
     top: 6%;
     display: none;
 }
-.menu{
+.content-menu{
     li{
         padding-left: 70px;
         font-weight: bold;
@@ -33,6 +33,7 @@
         }
     }
 }
+/*slider
 #sliders{
     padding-bottom: 500px;
 }
@@ -51,6 +52,7 @@
         left: 200vw;
     }
 }
+*/
 .redesResponsive{
     float: right;
     display: none;
@@ -83,24 +85,6 @@
 }
 .sprite{
     text-align: center;
-    .uno, .dos, .tres{
-        background-image: url("../img/resesSlider.png");
-        background-repeat: no-repeat;
-        width: 33px;
-        height: 39px;
-        float: left;
-        padding-right: 38px;
-        padding-bottom: 166px;
-    }
-    .uno{
-        background-position: 0 0;
-    }
-    .dos{
-        background-position: -71px 0;
-    }
-    .tres{
-        background-position: -142px 0;
-    }
 }
 
 .tablet{
